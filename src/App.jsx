@@ -1,13 +1,12 @@
+import { Container } from "react-bootstrap";
+import NavBar from "./components/NavBar";
 
 function App() {
-
-
   return (
-    <>
-      <div>Hi</div>
-       
-    </>
-  )
+    <div>
+      <NavBar />
+    </div>
+  );
 }
 
-export default App
+export default App;

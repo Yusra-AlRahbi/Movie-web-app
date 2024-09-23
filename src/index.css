@@ -1,0 +1,26 @@
+body{
+    margin: 0;
+}
+.nav-style{
+    height: 90px;
+    width: 1440px;
+    background-color: #FFAD64;
+}
+.logo{
+    height: 75px;
+    width: 90px;
+}
+
+.search{
+    position: relative;
+}
+
+.search input{
+    height: 40px;
+    text-indent: 25px;
+    border-radius: 20px;
+}
+.search input:focus{
+    box-shadow: none;
+    border: 2px solid #FB8351;
+}
